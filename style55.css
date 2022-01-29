@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: century gothic;
+}
+header{
+  background-image: url(https://1.bp.blogspot.com/-hyT7D0rMN-M/XSok48yTcaI/AAAAAAAAAT8/EfOjhutWi3Q3Z7V3zTUIre9KtetjUgjYwCEwYBhgL/s1600/pexels-photo-1797171.jpeg);
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+  }
+  ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+  }
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+  }
+  ul li a:hover{
+    background-color: white;
+    color: black;
+  }
+  ul li.active a{
+    background-color: white;
+    color: black;
+  }
+  .logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+  }
+  .main{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .title{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%-50%);
+  }
+  .title h1{
+  color: red;
+  font-weight: cente;
+  font-size: 50px;
+  margin: center;
+  top: 20px;
+  
+  }
+  .button{
+    position: absolute;
+    font-size: 6px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background-color: green;
+    color: green;
+  }
+.btn{
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+.navbar{
+  color: green;
+}
